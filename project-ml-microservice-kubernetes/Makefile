@@ -26,8 +26,8 @@ lint:
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
-	echo pwd
-	echo ls
+	pwd
+	ls
 	pylint --disable=R,C,W1203 ~/project-ml-microservice-kubernetes/app.py
 
 all: install lint test
