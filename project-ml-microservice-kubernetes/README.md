@@ -1,5 +1,7 @@
 [![CircleCI](https://circleci.com/gh/lab3000/DevOps_Microservices.svg?style=svg)](https://github.com/lab3000/DevOps_Microservices)
 
+# See README in the project folder [HERE](https://github.com/lab3000/DevOps_Microservices/tree/master/project-ml-microservice-kubernetes)
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -46,3 +48,16 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Dockerfile
     - runs app.py in a python 3.7.3-stretch container
 * Makefile
+    - creates venv
+    - installs pip requirements
+    - lints the dockerfile and app.py
+* app.py
+    - flask app that returns a json payload with an ML prediction based on input
+* make_prediction.sh
+    - issues a POST request to the flask app of app.py
+* run_docker.sh
+    - builds and runs the docker image specified in Dockerfile
+* upload_docker.sh
+    - pushes image to docker repository
+* run_kubernetes.sh
+    - runs the image pushed to the docker repo on a pod
