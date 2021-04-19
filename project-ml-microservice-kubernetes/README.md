@@ -40,3 +40,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files in the repository
+
+* Dockerfile
+    - runs app.py in a python 3.7.3-stretch container
+* Makefile

@@ -1,1 +1,25 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) (base) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh 
+pod/k8udacity created
+NAME        READY   STATUS              RESTARTS   AGE
+k8udacity   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) (base) ➜  project-ml-microservice-kubernetes git:(master) ✗ kubectl get pod
+NAME        READY   STATUS    RESTARTS   AGE
+k8udacity   1/1     Running   0          19m
+(.devops) (base) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "k8udacity" already exists
+NAME        READY   STATUS    RESTARTS   AGE
+k8udacity   1/1     Running   0          19m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+(base) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
