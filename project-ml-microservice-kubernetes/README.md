@@ -1,6 +1,5 @@
 [![CircleCI](https://circleci.com/gh/lab3000/DevOps_Microservices.svg?style=svg)](https://github.com/lab3000/DevOps_Microservices)
 
-# See README in the project folder [HERE](https://github.com/lab3000/DevOps_Microservices/tree/master/project-ml-microservice-kubernetes)
 
 ## Project Overview
 

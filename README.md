@@ -1,6 +1,8 @@
 [![CircleCI](https://circleci.com/gh/lab3000/DevOps_Microservices.svg?style=svg)](https://github.com/lab3000/DevOps_Microservices)
 
-## Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
+# The README for the microservices project folder, with descriptions of how to run the project and the files in the project, can be found [HERE](https://github.com/lab3000/DevOps_Microservices/tree/master/project-ml-microservice-kubernetes)
+
+### Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
 
 This repository is associated with Cloud DevOps ND - Course 04 - Microservices at Scale using AWS & Kubernetes. In here, you'll find:
 1. Supporting material used in the video demonstration in the course 
